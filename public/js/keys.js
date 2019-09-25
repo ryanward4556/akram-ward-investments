@@ -1,3 +1,3 @@
 module.exports.alphaVantageKey = {
-    key: process.env.ALPHAVANTAGE_KEY
+    id: process.env.ALPHAVANTAGE_ID
 };
