@@ -1,0 +1,27 @@
+{
+  "name": "akram-ward-investments",
+  "version": "1.0.0",
+  "description": "Project #3",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanward4556/akram-ward-investments.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryanward4556/akram-ward-investments/issues"
+  },
+  "homepage": "https://github.com/ryanward4556/akram-ward-investments#readme",
+  "dependencies": {
+    "alphavantage": "^1.2.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
