@@ -1,4 +1,4 @@
-Project #3 
+Project #3 (in progress)
 
 Akram & Ward Invesments will connect you with a portfolio manager who will help manage your invesments
 
