@@ -1,0 +1,33 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+	padding: 0;
+}
+
+#company-name{
+    font-family: 'Orbitron';
+    font-size: 2.57rem;
+    padding-left: 15rem;
+    margin-bottom: 0;
+    padding-top: 15rem;
+}
+
+#company-tagline{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    padding-left: 15rem;
+    padding-bottom: 5rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+hr{ display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #ccc;
+    margin: 1em 0; 
+    padding: 0; 
+    border-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+}

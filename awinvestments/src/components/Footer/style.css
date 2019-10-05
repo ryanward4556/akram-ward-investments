@@ -1,0 +1,17 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+	padding: 0;
+}
+
+#footer{
+    background-image: url("wallpaper1.png");
+    margin: 0;
+    padding: 0;
+    padding-top: 7.5rem;
+}
+
+#copyright{
+    font-size: 12px;
+    font-weight: bold;
+}
