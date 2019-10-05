@@ -1,30 +1,25 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Wrapper from "./components/Wrapper";
-import NavBar from "./components/NavBar";
-import CompanyName from "./components/CompanyName";
-import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import NoMatch from "./pages/NoMatch";
 import "./App.css";
 
-class App extends React.Component {
-  render() {
-    return (
-      <Wrapper>
-        <NavBar />
+
+function App() {
+  return (
+    <Router>
+      <div>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/team" component={Team} />
-          <Route exact path="/marketnews" component={MarketNews} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/account" component={Account} />
+          {/* <Route exact path="/about" component={About} /> */}
+          {/* <Route exact path="/marketnews" component={MarketNews} /> */}
+          {/* <Route exact path="/account" component={Account} /> */}
+          {/* <Route exact path="/contact" component={Contact} /> */}
           <Route component={NoMatch} />
         </Switch>
-        <CompanyName />
-        <Footer />
-      </Wrapper>
-    )
-  }
+      </div>
+    </Router>
+  );
 }
 
 export default App;
