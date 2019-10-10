@@ -7,11 +7,11 @@ import Footer from "../components/Footer";
 class App extends React.Component {
     render() {
         return (
-            <Wrapper>
+            <>
                 <NavBar />
                 <CompanyName />
                 <Footer />
-            </Wrapper>
+            </>
         )
     }
 }
