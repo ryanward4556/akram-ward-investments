@@ -68,12 +68,12 @@ function AboutCompany(props) {
             <p>◈ <strong>Model Inception:</strong> March 01, 2009</p>
             <br></br>
             <h5>Top 5 Holdings</h5>
-            <table class="table table-sm">
-              <thead class="thead-dark">
+            <table className="table table-sm">
+              <thead className="thead-dark">
                 <tr>
                   <th scope="col">Security</th>
-                  <th scope="col" class="text-center">Portfolio Weight</th>
-                  <th scope="col" class="text-center">Benchmark Weight</th>
+                  <th scope="col" className="text-center">Portfolio Weight</th>
+                  <th scope="col" className="text-center">Benchmark Weight</th>
                 </tr>
               </thead>
               <tbody>
@@ -105,13 +105,13 @@ function AboutCompany(props) {
               </tbody>
             </table>
             <h5>Calendar Year Returns</h5>
-            <table class="table table-sm">
-              <thead class="thead-dark">
+            <table className="table table-sm">
+              <thead className="thead-dark">
                 <tr>
                   <th scope="col">Year</th>
-                  <th scope="col" class="text-center">Gross of Fees (%)</th>
-                  <th scope="col" class="text-center">Net of Fees (%)</th>
-                  <th scope="col" class="text-center">Index Return (%)</th>
+                  <th scope="col" className="text-center">Gross of Fees (%)</th>
+                  <th scope="col" className="text-center">Net of Fees (%)</th>
+                  <th scope="col" className="text-center">Index Return (%)</th>
                 </tr>
               </thead>
               <tbody>
@@ -163,12 +163,12 @@ function AboutCompany(props) {
             <p>◈ <strong>Model Inception:</strong> March 31, 2008</p>
             <br></br>
             <h5>Top 5 Holdings</h5>
-            <table class="table table-sm">
-              <thead class="thead-dark">
+            <table className="table table-sm">
+              <thead className="thead-dark">
                 <tr>
                   <th scope="col">Security</th>
-                  <th scope="col" class="text-center">Portfolio Weight</th>
-                  <th scope="col" class="text-center">Benchmark Weight</th>
+                  <th scope="col" className="text-center">Portfolio Weight</th>
+                  <th scope="col" className="text-center">Benchmark Weight</th>
                 </tr>
               </thead>
               <tbody>
@@ -200,13 +200,13 @@ function AboutCompany(props) {
               </tbody>
             </table>
             <h5>Calendar Year Returns</h5>
-            <table class="table table-sm">
-              <thead class="thead-dark">
+            <table className="table table-sm">
+              <thead className="thead-dark">
                 <tr>
                   <th scope="col">Year</th>
-                  <th scope="col" class="text-center">Gross of Fees (%)</th>
-                  <th scope="col" class="text-center">Net of Fees (%)</th>
-                  <th scope="col" class="text-center">Index Return (%)</th>
+                  <th scope="col" className="text-center">Gross of Fees (%)</th>
+                  <th scope="col" className="text-center">Net of Fees (%)</th>
+                  <th scope="col" className="text-center">Index Return (%)</th>
                 </tr>
               </thead>
               <tbody>
