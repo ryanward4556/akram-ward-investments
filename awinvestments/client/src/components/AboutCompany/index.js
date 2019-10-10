@@ -72,35 +72,35 @@ function AboutCompany(props) {
               <thead className="thead-dark">
                 <tr>
                   <th scope="col">Security</th>
-                  <th scope="col" className="text-center">Portfolio Weight</th>
-                  <th scope="col" className="text-center">Benchmark Weight</th>
+                  <th scope="col" className="text-center">Portfolio Weight (%)</th>
+                  <th scope="col" className="text-center">Benchmark Weight (%)</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">FMC</th>
-                  <td>4.42%</td>
-                  <td>0.05%</td>
+                  <td>4.42</td>
+                  <td>0.0%</td>
                 </tr>
                 <tr>
                   <th scope="row">Verizon</th>
-                  <td>4.40%</td>
-                  <td>1.76%</td>
+                  <td>4.40</td>
+                  <td>1.76</td>
                 </tr>
                 <tr>
                   <th scope="row">Corning</th>
-                  <td>3.91%</td>
-                  <td>0.19%</td>
+                  <td>3.91</td>
+                  <td>0.19</td>
                 </tr>
                 <tr>
                   <th scope="row">Humana</th>
-                  <td>3.88%</td>
-                  <td>0.02%</td>
+                  <td>3.88</td>
+                  <td>0.02</td>
                 </tr>
                 <tr>
                   <th scope="row">Tyson Foods</th>
-                  <td>3.70%</td>
-                  <td>0.18%</td>
+                  <td>3.70</td>
+                  <td>0.18</td>
                 </tr>
               </tbody>
             </table>
@@ -167,35 +167,35 @@ function AboutCompany(props) {
               <thead className="thead-dark">
                 <tr>
                   <th scope="col">Security</th>
-                  <th scope="col" className="text-center">Portfolio Weight</th>
-                  <th scope="col" className="text-center">Benchmark Weight</th>
+                  <th scope="col" className="text-center">Portfolio Weight (%)</th>
+                  <th scope="col" className="text-center">Benchmark Weight (%)</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <th scope="row">Facebook</th>
-                  <td>4.81%</td>
-                  <td>3.31%</td>
+                  <td>4.81</td>
+                  <td>3.31</td>
                 </tr>
                 <tr>
                   <th scope="row">Amazon.com</th>
-                  <td>4.60%</td>
-                  <td>3.60%</td>
+                  <td>4.60</td>
+                  <td>3.60</td>
                 </tr>
                 <tr>
                   <th scope="row">Alibaba ADR</th>
-                  <td>4.10%</td>
-                  <td>0.00%</td>
+                  <td>4.10</td>
+                  <td>0.00</td>
                 </tr>
                 <tr>
                   <th scope="row">Illumina</th>
-                  <td>3.92%</td>
-                  <td>0.39%</td>
+                  <td>3.92</td>
+                  <td>0.39</td>
                 </tr>
                 <tr>
                   <th scope="row">NVIDIA</th>
-                  <td>3.91%</td>
-                  <td>0.69%</td>
+                  <td>3.91</td>
+                  <td>0.69</td>
                 </tr>
               </tbody>
             </table>
