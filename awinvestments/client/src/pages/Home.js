@@ -1,5 +1,4 @@
 import React from "react";
-import Wrapper from "../components/Wrapper";
 import NavBar from "../components/NavBar";
 import CompanyName from "../components/CompanyName";
 import Footer from "../components/Footer";
