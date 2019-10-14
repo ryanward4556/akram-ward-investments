@@ -63,7 +63,7 @@ function AboutCompany(props) {
             <br></br>
             <h5>Quick Portfolio Facts</h5>
             <p>◈ <strong>Primary Benchmark:</strong> Russell 1000 Value Index</p>
-            <p>◈ <strong>Number of holdings:</strong> 37 (Index: 722)</p>
+            <p>◈ <strong>Number of holdings:</strong> 30 (Index: 722)</p>
             <p>◈ <strong>Median market capitalization:</strong> $47.52B (Index: $67.96B)</p>
             <p>◈ <strong>Model Inception:</strong> March 01, 2009</p>
             <br></br>
@@ -158,7 +158,7 @@ function AboutCompany(props) {
             <br></br>
             <h5>Quick Portfolio Facts</h5>
             <p>◈ <strong>Primary Benchmark:</strong> Russell 1000 Growth Index</p>
-            <p>◈ <strong>Number of holdings:</strong> 32 (Index: 546)</p>
+            <p>◈ <strong>Number of holdings:</strong> 30 (Index: 546)</p>
             <p>◈ <strong>Median market capitalization:</strong> $54.59B (Index: $110.47B)</p>
             <p>◈ <strong>Model Inception:</strong> March 31, 2008</p>
             <br></br>

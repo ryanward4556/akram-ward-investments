@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "weight": 4.79
+  },
+  {
+    "id": 2,
+    "symbol": "MSFT",
+    "name": "Microsoft Corp.",
+    "weight": 4.77
+  },
+  {
+    "id": 3,
+    "symbol": "AMZN",
+    "name": "Amazon Inc.",
+    "weight": 4.71
+  },
+  {
+    "id": 4,
+    "symbol": "FB",
+    "name": "Facebook",
+    "weight": 4.68
+  },
+  {
+    "id": 5,
+    "symbol": "GOOG",
+    "name": "Alphabet Class C",
+    "weight": 4.58
+  },
+  {
+    "id": 6,
+    "symbol": "GOOGL",
+    "name": "Alphabet Class A",
+    "weight": 4.49
+  },
+  {
+    "id": 7,
+    "symbol": "V",
+    "name": "Visa Inc.",
+    "weight": 4.21
+  },
+  {
+    "id": 8,
+    "symbol": "MA",
+    "name": "Mastercard",
+    "weight": 4.09
+  },
+  {
+    "id": 9,
+    "symbol": "UNH",
+    "name": "UnitedHealth",
+    "weight": 4.01
+  },
+  {
+    "id": 10,
+    "symbol": "MRK",
+    "name": "Merck & Co.",
+    "weight": 3.85
+  },
+  {
+    "id": 11,
+    "symbol": "CSCO",
+    "name": "CISCO Systems",
+    "weight": 3.81
+  },
+  {
+    "id": 12,
+    "symbol": "BA",
+    "name": "Boeing",
+    "weight": 3.75
+  },
+  {
+    "id": 13,
+    "symbol": "PEP",
+    "name": "Pepsi Co.",
+    "weight": 3.72
+  },
+  {
+    "id": 14,
+    "symbol": "HD",
+    "name": "Home Depot",
+    "weight": 3.69
+  },
+  {
+    "id": 15,
+    "symbol": "KO",
+    "name": "Coca-Cola",
+    "weight": 3.65
+  },
+  {
+    "id": 16,
+    "symbol": "ADBE",
+    "name": "Adobe Inc.",
+    "weight": 3.59
+  },
+  {
+    "id": 17,
+    "symbol": "COST",
+    "name": "Costco Corp.",
+    "weight": 3.48
+  },
+  {
+    "id": 18,
+    "symbol": "ORCL",
+    "name": "Oracle Corp.",
+    "weight": 3.38
+  },
+  {
+    "id": 19,
+    "symbol": "CRM",
+    "name": "Salesforce Inc.",
+    "weight": 3.32
+  },
+  {
+    "id": 20,
+    "symbol": "TXN",
+    "name": "Texas Instrument Inc.",
+    "weight": 3.23
+  },
+  {
+    "id": 21,
+    "symbol": "PYPL",
+    "name": "Paypal Holdings",
+    "weight": 2.95
+  },
+  {
+    "id": 22,
+    "symbol": "NFLX",
+    "name": "Netflix",
+    "weight": 2.48
+  },
+  {
+    "id": 23,
+    "symbol": "ACN",
+    "name": "Accenture PLC",
+    "weight": 2.34
+  },
+  {
+    "id": 24,
+    "symbol": "NKE",
+    "name": "Nike Inc.",
+    "weight": 2.08
+  },
+  {
+    "id": 25,
+    "symbol": "UNP",
+    "name": "Union Pacific Corp.",
+    "weight": 1.96
+  },
+  {
+    "id": 26,
+    "symbol": "AMGN",
+    "name": "Amgen Inc.",
+    "weight": 1.88
+  },
+  {
+    "id": 27,
+    "symbol": "ABBV",
+    "name": "Abbvie Inc.",
+    "weight": 1.76
+  },
+  {
+    "id": 28,
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "weight": 1.65
+  },
+  {
+    "id": 29,
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp.",
+    "weight": 1.59
+  },
+  {
+    "id": 30,
+    "symbol": "SBUX",
+    "name": "Starbucks Corp.",
+    "weight": 1.51
+  }
+]
