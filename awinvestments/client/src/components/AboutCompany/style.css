@@ -1,34 +1,35 @@
 body{
-    background-color: #ffffff;
-    margin: 0;
-	padding: 0;
+    background-color: #ffffff !important;
+    margin: 0 !important;
+	padding: 0 !important;
 }
 
 #manager1, #strategy1{
-    padding-left: 10rem;
-    padding-right: 5rem;
+    padding-left: 10rem !important;
+    padding-right: 5rem !important;
 }
 
 #manager2, #strategy2{
-    padding-left: 5rem;
-    padding-right: 10rem;
+    padding-left: 5rem !important;
+    padding-right: 10rem !important;
 }
 
 h2, h3{
-    font-family: 'Orbitron';
-    padding-top: 2rem;
+    font-family: 'Orbitron' !important;
+    padding-top: 2rem !important;
 }
 
 h5{
-    font-family: 'Orbitron';
-    font-size: 17px;
+    font-family: 'Orbitron' !important;
+    font-size: 17px !important;
     color: green
 }
 
 p{
-    text-align: justify;
-    text-justify: inter-character;
-    margin: 0
+    text-align: justify !important;
+    text-justify: inter-character !important;
+    margin: 0;
+    color: black !important;
 }
 
 td{

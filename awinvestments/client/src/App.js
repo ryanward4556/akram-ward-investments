@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 // import Login from "./pages/Login";
 import ManagerView from "./pages/ManagerView";
+import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import "./App.css";
 
@@ -18,7 +19,7 @@ function App() {
           {/* <Route exact path="/marketnews" component={MarketNews} /> */}
           {/* <Route exact path="/login" component={Login} /> */}
           <Route exact path="/manager-view" component={ManagerView} />
-          {/* <Route exact path="/contact" component={Contact} /> */}
+          <Route exact path="/contact" component={Contact} />
           <Route component={NoMatch} />
         </Switch>
       </div>

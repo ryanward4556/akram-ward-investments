@@ -1,33 +1,33 @@
 body{
-    background-color: #ffffff;
-    margin: 0;
-	padding: 0;
+    background-color: #ffffff !important;
+    margin: 0 !important;
+	padding: 0 !important;
 }
 
 #company-name{
-    font-family: 'Orbitron';
-    font-size: 2.57rem;
-    padding-left: 15rem;
-    margin-bottom: 0;
-    padding-top: 15rem;
+    font-family: 'Orbitron' !important;
+    font-size: 2.57rem !important;
+    padding-left: 15rem !important;
+    margin-bottom: 0 !important;
+    padding-top: 15rem !important;
 }
 
 #company-tagline{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.1rem;
-    padding-left: 15rem;
-    padding-bottom: 5rem;
-    font-weight: bolder;
-    font-style: italic;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 1.1rem !important;
+    padding-left: 15rem !important;
+    padding-bottom: 5rem !important;
+    font-weight: bolder !important;
+    font-style: italic !important;
 }
 
-hr{ display: block; 
-    height: 1px;
-    border: 0; 
-    border-top: 1px solid #ccc;
-    margin: 1em 0; 
-    padding: 0; 
-    border-color: black;
-    margin-top: 0;
-    margin-bottom: 0;
+hr{ display: block !important; 
+    height: 1px !important;
+    border: 0 !important; 
+    border-top: 1px solid #ccc !important;
+    margin: 1em 0 !important; 
+    padding: 0 !important; 
+    border-color: black !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }

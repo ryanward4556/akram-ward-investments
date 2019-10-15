@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
-import ModelValuePortfolioData from "../ModelValuePortfolioData";
-import ModelGrowthPortfolioData from "../ModelGrowthPortfolioData";
-import valueStocks from "../ModelValuePortfolioData/value-stocks.json"
-import growthStocks from "../ModelGrowthPortfolioData/growth-stocks.json"
+import ModelValuePortfolioData from "../PortfolioModelValue";
+import ModelGrowthPortfolioData from "../PortfolioModelGrowth";
+import valueStocks from "../PortfolioModelValue/value-stocks.json"
+import growthStocks from "../PortfolioModelGrowth/growth-stocks.json"
 
 var investmentStyle = {
   color: "green",
