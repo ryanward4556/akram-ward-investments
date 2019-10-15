@@ -13,6 +13,10 @@ var hrStyle = {
   marginRight: "10%",
 }
 
+var negativeStyle = {
+  color: "red"
+}
+
 function AboutCompany(props) {
   return (
     <div className="row">
@@ -78,29 +82,29 @@ function AboutCompany(props) {
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row">FMC</th>
-                  <td>4.42</td>
-                  <td>0.0%</td>
+                  <th scope="row">Berkshire Hathway</th>
+                  <td className="text-center">5.51</td>
+                  <td className="text-center">0.0%</td>
                 </tr>
                 <tr>
-                  <th scope="row">Verizon</th>
-                  <td>4.40</td>
-                  <td>1.76</td>
+                  <th scope="row">JP Morgan</th>
+                  <td className="text-center">5.05</td>
+                  <td className="text-center">1.76</td>
                 </tr>
                 <tr>
-                  <th scope="row">Corning</th>
-                  <td>3.91</td>
-                  <td>0.19</td>
+                  <th scope="row">Johnson & Johnson</th>
+                  <td className="text-center">4.79</td>
+                  <td className="text-center">0.19</td>
                 </tr>
                 <tr>
-                  <th scope="row">Humana</th>
-                  <td>3.88</td>
-                  <td>0.02</td>
+                  <th scope="row">Exxon Mobil</th>
+                  <td className="text-center">4.72</td>
+                  <td className="text-center">0.02</td>
                 </tr>
                 <tr>
-                  <th scope="row">Tyson Foods</th>
-                  <td>3.70</td>
-                  <td>0.18</td>
+                  <th scope="row">Proctor & Gamble</th>
+                  <td className="text-center">4.42</td>
+                  <td className="text-center">0.18</td>
                 </tr>
               </tbody>
             </table>
@@ -117,33 +121,33 @@ function AboutCompany(props) {
               <tbody>
                 <tr>
                   <th scope="row">2018</th>
-                  <td>-11.34</td>
-                  <td>-13.99</td>
-                  <td>-8.27</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(11.34)</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(13.99)</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(8.27)</td>
                 </tr>
                 <tr>
                   <th scope="row">2017</th>
-                  <td>21.76</td>
-                  <td>18.22</td>
-                  <td>13.66</td>
+                  <td className="text-center">21.76</td>
+                  <td className="text-center">18.22</td>
+                  <td className="text-center">13.66</td>
                 </tr>
                 <tr>
                   <th scope="row">2016</th>
-                  <td>20.25</td>
-                  <td>16.75</td>
-                  <td>17.34</td>
+                  <td className="text-center">20.25</td>
+                  <td className="text-center">16.75</td>
+                  <td className="text-center">17.34</td>
                 </tr>
                 <tr>
                   <th scope="row">2015</th>
-                  <td>-2.81</td>
-                  <td>-5.69</td>
-                  <td>-3.83</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(2.81)</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(5.69)</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(3.83)</td>
                 </tr>
                 <tr>
                   <th scope="row">2014</th>
-                  <td>13.65</td>
-                  <td>10.32</td>
-                  <td>13.45</td>
+                  <td className="text-center">13.65</td>
+                  <td className="text-center">10.32</td>
+                  <td className="text-center">13.45</td>
                 </tr>
               </tbody>
             </table>
@@ -173,29 +177,29 @@ function AboutCompany(props) {
               </thead>
               <tbody>
                 <tr>
+                  <th scope="row">Apple</th>
+                  <td className="text-center">4.79</td>
+                  <td className="text-center">3.31</td>
+                </tr>
+                <tr>
+                  <th scope="row">Microsoft</th>
+                  <td className="text-center">4.77</td>
+                  <td className="text-center">3.60</td>
+                </tr>
+                <tr>
+                  <th scope="row">Amazon</th>
+                  <td className="text-center">4.71</td>
+                  <td className="text-center">3.12</td>
+                </tr>
+                <tr>
                   <th scope="row">Facebook</th>
-                  <td>4.81</td>
-                  <td>3.31</td>
+                  <td className="text-center">4.68</td>
+                  <td className="text-center">2.39</td>
                 </tr>
                 <tr>
-                  <th scope="row">Amazon.com</th>
-                  <td>4.60</td>
-                  <td>3.60</td>
-                </tr>
-                <tr>
-                  <th scope="row">Alibaba ADR</th>
-                  <td>4.10</td>
-                  <td>0.00</td>
-                </tr>
-                <tr>
-                  <th scope="row">Illumina</th>
-                  <td>3.92</td>
-                  <td>0.39</td>
-                </tr>
-                <tr>
-                  <th scope="row">NVIDIA</th>
-                  <td>3.91</td>
-                  <td>0.69</td>
+                  <th scope="row">Alphabet</th>
+                  <td className="text-center">4.58</td>
+                  <td className="text-center">3.69</td>
                 </tr>
               </tbody>
             </table>
@@ -212,33 +216,33 @@ function AboutCompany(props) {
               <tbody>
                 <tr>
                   <th scope="row">2018</th>
-                  <td>-3.85</td>
-                  <td>-6.70</td>
-                  <td>-1.51</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(3.85)</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(6.70)</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(1.51)</td>
                 </tr>
                 <tr>
                   <th scope="row">2017</th>
-                  <td>35.71</td>
-                  <td>31.79</td>
-                  <td>30.21</td>
+                  <td className="text-center">35.71</td>
+                  <td className="text-center">31.79</td>
+                  <td className="text-center">30.21</td>
                 </tr>
                 <tr>
                   <th scope="row">2016</th>
-                  <td>-8.28</td>
-                  <td>-11.01</td>
-                  <td>7.08</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(8.28)</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(11.01)</td>
+                  <td className="text-center" className="text-center" style={negativeStyle}>(7.08)</td>
                 </tr>
                 <tr>
                   <th scope="row">2015</th>
-                  <td>7.71</td>
-                  <td>4.54</td>
-                  <td>5.67</td>
+                  <td className="text-center">7.71</td>
+                  <td className="text-center">4.54</td>
+                  <td className="text-center">5.67</td>
                 </tr>
                 <tr>
                   <th scope="row">2014</th>
-                  <td>8.47</td>
-                  <td>5.28</td>
-                  <td>13.05</td>
+                  <td className="text-center">8.47</td>
+                  <td className="text-center">5.28</td>
+                  <td className="text-center">13.05</td>
                 </tr>
               </tbody>
             </table>

@@ -1,22 +1,23 @@
 import React from "react";
 import "./style.css";
-import API from "../../utils/API";
+import API from "../../utils";
 
 
-class ModelPortfolioData extends React.Component {
+class ModelStocksData extends React.Component {
   state = {
     price: ""
   }
 
-  componentDidMount() {
-    this.getStockInfo(this.props.symbol)
+  async componentDidMount() {
+    await this.getStockInfo(this.props.symbol)
   }
 
   getStockInfo = symbol => {
     API.search(symbol)
       .then(response => {
-        this.setState({ price: response.data.latestPrice })
-        console.log(this.state.price)
+        this.setState(() => {
+          return { price: response.data.latestPrice }
+        })
       })
   }
 
@@ -33,4 +34,4 @@ class ModelPortfolioData extends React.Component {
   }
 }
 
-export default ModelPortfolioData;
+export default ModelStocksData;

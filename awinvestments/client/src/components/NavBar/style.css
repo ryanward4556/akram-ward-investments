@@ -12,6 +12,7 @@ ul{
 ul li{
 	list-style: none;
 	padding-right: 3rem;
+	
 }
 ul li a{
 	text-decoration: none;
@@ -58,9 +59,10 @@ ul li:hover a::after{
 	transform: translateX(10%);
 }
 
-ul{
-    padding-left: 15rem;
-    margin-left: 0;
+ul {
+	display: flex;
+  	justify-content: center;
+	margin-left: 6.5rem
 }
 
 a:hover{

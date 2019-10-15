@@ -1,27 +1,50 @@
 import React from "react";
-import ModelPortfolioData from "../ModelPortfolioData";
+import "./style.css";
+import ModelStocksData from "../ModelPortfolioData";
 import valueStocks from "../ModelPortfolioData/value-stocks.json"
 import growthStocks from "../ModelPortfolioData/growth-stocks.json"
+
+var investmentStyle = {
+  color: "green",
+  fontFamily: "Orbitron",
+  paddingTop: "2rem"
+}
+
+var pStyle = {
+  fontFamily: 'Orbitron',
+  fontSize: "18px",
+  paddingBottom: "0.5rem"
+}
+
+var thStyle = {
+  fontFamily: 'Orbitron',
+  margin: "0 !important",
+  paddingTop: "0.4rem !important",
+  paddingBottom: "0.1rem !important"
+
+}
 
 function ModelPortfolioTable(props) {
   return (
     <div className="row">
-      <div className="col-8">
+      <div className="col-12">
         <div className="row">
-          <div className="col-6" id="value-strategy">
-            <table className="table table-sm">
+          <div className="col-5 offset-1" id="value-strategy">
+            <h4 className="text-center">A&W large cap <span style={investmentStyle}>value</span></h4>
+            <p className="text-center" style={pStyle}> Model Strategy Holdings</p>
+            <table className="table table-sm" border="1">
               <thead className="thead-dark">
                 <tr>
-                  <th scope="col">Security Name</th>
-                  <th scope="col">Ticker</th>
-                  <th scope="col">Weight</th>
-                  <th scope="col">Price</th>
+                  <th scope="col" style={thStyle}>Security Name</th>
+                  <th scope="col" style={thStyle}>Ticker</th>
+                  <th scope="col" style={thStyle}>Weight</th>
+                  <th scope="col" style={thStyle}>Price</th>
                 </tr>
               </thead>
               <tbody>
                 {valueStocks.map(stock => {
                   return (
-                    <ModelPortfolioData
+                    <ModelStocksData
                       key={stock.id}
                       id={stock.id}
                       name={stock.name}
@@ -33,20 +56,22 @@ function ModelPortfolioTable(props) {
               </tbody>
             </table>
           </div>
-          <div className="col-6" id="growth-strategy">
-            <table className="table table-sm">
+          <div className="col-5" id="growth-strategy">
+            <h4 className="text-center">A&W large cap <span style={investmentStyle}>growth</span></h4>
+            <p className="text-center" style={pStyle}> Model Strategy Holdings</p>
+            <table className="table table-sm" border="1">
               <thead className="thead-dark">
                 <tr>
-                  <th scope="col">Security Name</th>
-                  <th scope="col">Ticker</th>
-                  <th scope="col">Weight</th>
-                  <th scope="col">Price</th>
+                  <th scope="col" style={thStyle}>Security Name</th>
+                  <th scope="col" style={thStyle}>Ticker</th>
+                  <th scope="col" style={thStyle}>Weight</th>
+                  <th scope="col" style={thStyle}>Price</th>
                 </tr>
               </thead>
               <tbody>
                 {growthStocks.map(stock => {
                   return (
-                    <ModelPortfolioData
+                    <ModelStocksData
                       key={stock.id}
                       id={stock.id}
                       name={stock.name}
@@ -60,8 +85,6 @@ function ModelPortfolioTable(props) {
           </div>
         </div>
       </div >
-      <div className="col-4">
-      </div>
     </div >
   );
 }
