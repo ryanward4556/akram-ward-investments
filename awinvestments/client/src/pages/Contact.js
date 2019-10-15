@@ -4,6 +4,19 @@ import "../components/Contact/css/main.css";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 
+var sendUsAMessage = {
+  color: "green",
+  fontFamily: "Orbitron",
+  paddingTop: "2rem"
+}
+
+var sendButton = {
+  fontFamily: "Orbitron",
+}
+
+var contactHeader = {
+  fontFamily: "Orbitron",
+}
 
 function App() {
   return (
@@ -12,7 +25,7 @@ function App() {
       <div className="container-contact100">
         <div className="wrap-contact100">
           <form className="contact100-form validate-form">
-            <span className="contact100-form-title">Send Us A Message</span>
+            <span className="contact100-form-title" style={sendUsAMessage}>Send Us A Message</span>
             <label className="label-input100" for="first-name">Tell us your name *</label>
             <div className="wrap-input100 rs1-wrap-input100 validate-input" data-validate="Type first name">
               <input id="first-name" className="input100" type="text" name="first-name" placeholder="First name"></input>
@@ -38,7 +51,7 @@ function App() {
               <span className="focus-input100"></span>
             </div>
             <div className="container-contact100-form-btn">
-              <button className="contact100-form-btn">Send Message</button>
+              <button className="contact100-form-btn" style={sendButton}>Send Message</button>
             </div>
           </form>
           <div className="contact100-more flex-col-c-m" id="background">
@@ -47,7 +60,7 @@ function App() {
                 <span className="lnr lnr-map-marker"></span>
               </div>
               <div className="flex-col size2">
-                <span className="txt1 p-b-20">Address</span>
+                <span className="txt1 p-b-20" style={contactHeader}>Address</span>
                 <span className="txt2">Pennovation Center<br /> 3401 Grays Ferry Avenue <br /> Philadelphia, PA 19146</span>
               </div>
             </div>
@@ -56,7 +69,7 @@ function App() {
                 <span className="lnr lnr-phone-handset"></span>
               </div>
               <div className="flex-col size2">
-                <span className="txt1 p-b-20">Lets Talk</span>
+                <span className="txt1 p-b-20" style={contactHeader}>Lets Talk</span>
                 <span className="txt3">+1 267-534-5393</span>
               </div>
             </div>
@@ -65,7 +78,7 @@ function App() {
                 <span className="lnr lnr-envelope"></span>
               </div>
               <div className="flex-col size2">
-                <span className="txt1 p-b-20">General Support</span>
+                <span className="txt1 p-b-20" style={contactHeader}>General Support</span>
                 <span className="txt3">info@awinvestments.com</span>
               </div>
             </div>
