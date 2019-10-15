@@ -1,8 +1,9 @@
 import React from "react";
 import "./style.css";
-import ModelStocksData from "../ModelPortfolioData";
-import valueStocks from "../ModelPortfolioData/value-stocks.json"
-import growthStocks from "../ModelPortfolioData/growth-stocks.json"
+import ModelValuePortfolioData from "../ModelValuePortfolioData";
+import ModelGrowthPortfolioData from "../ModelGrowthPortfolioData";
+import valueStocks from "../ModelValuePortfolioData/value-stocks.json"
+import growthStocks from "../ModelGrowthPortfolioData/growth-stocks.json"
 
 var investmentStyle = {
   color: "green",
@@ -44,7 +45,7 @@ function ModelPortfolioTable(props) {
               <tbody>
                 {valueStocks.map(stock => {
                   return (
-                    <ModelStocksData
+                    <ModelValuePortfolioData
                       key={stock.id}
                       id={stock.id}
                       name={stock.name}
@@ -71,7 +72,7 @@ function ModelPortfolioTable(props) {
               <tbody>
                 {growthStocks.map(stock => {
                   return (
-                    <ModelStocksData
+                    <ModelGrowthPortfolioData
                       key={stock.id}
                       id={stock.id}
                       name={stock.name}

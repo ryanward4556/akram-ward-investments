@@ -3,55 +3,55 @@
     "id": 1,
     "symbol": "AAPL",
     "name": "Apple Inc.",
-    "weight": 4.79
+    "weight": 5.79
   },
   {
     "id": 2,
     "symbol": "MSFT",
     "name": "Microsoft Corp.",
-    "weight": 4.77
+    "weight": 5.77
   },
   {
     "id": 3,
     "symbol": "AMZN",
     "name": "Amazon Inc.",
-    "weight": 4.71
+    "weight": 5.71
   },
   {
     "id": 4,
     "symbol": "FB",
     "name": "Facebook",
-    "weight": 4.68
+    "weight": 5.68
   },
   {
     "id": 5,
     "symbol": "GOOG",
     "name": "Alphabet Class C",
-    "weight": 4.58
+    "weight": 5.58
   },
   {
     "id": 6,
     "symbol": "GOOGL",
     "name": "Alphabet Class A",
-    "weight": 4.49
+    "weight": 5.49
   },
   {
     "id": 7,
     "symbol": "V",
     "name": "Visa Inc.",
-    "weight": 4.21
+    "weight": 5.21
   },
   {
     "id": 8,
     "symbol": "MA",
     "name": "Mastercard",
-    "weight": 4.09
+    "weight": 5.08
   },
   {
     "id": 9,
     "symbol": "UNH",
     "name": "UnitedHealth",
-    "weight": 4.01
+    "weight": 4.41
   },
   {
     "id": 10,
@@ -147,36 +147,6 @@
     "id": 25,
     "symbol": "UNP",
     "name": "Union Pacific Corp.",
-    "weight": 1.96
-  },
-  {
-    "id": 26,
-    "symbol": "AMGN",
-    "name": "Amgen Inc.",
-    "weight": 1.88
-  },
-  {
-    "id": 27,
-    "symbol": "ABBV",
-    "name": "Abbvie Inc.",
-    "weight": 1.76
-  },
-  {
-    "id": 28,
-    "symbol": "AVGO",
-    "name": "Broadcom Inc",
-    "weight": 1.65
-  },
-  {
-    "id": 29,
-    "symbol": "NVDA",
-    "name": "NVIDIA Corp.",
-    "weight": 1.59
-  },
-  {
-    "id": 30,
-    "symbol": "SBUX",
-    "name": "Starbucks Corp.",
-    "weight": 1.51
+    "weight": 2.96
   }
 ]

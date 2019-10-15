@@ -67,7 +67,7 @@ function AboutCompany(props) {
             <br></br>
             <h5>Quick Portfolio Facts</h5>
             <p>◈ <strong>Primary Benchmark:</strong> Russell 1000 Value Index</p>
-            <p>◈ <strong>Number of holdings:</strong> 30 (Index: 722)</p>
+            <p>◈ <strong>Number of holdings:</strong> 25 (Index: 722)</p>
             <p>◈ <strong>Median market capitalization:</strong> $47.52B (Index: $67.96B)</p>
             <p>◈ <strong>Model Inception:</strong> March 01, 2009</p>
             <br></br>
@@ -83,28 +83,28 @@ function AboutCompany(props) {
               <tbody>
                 <tr>
                   <th scope="row">Berkshire Hathway</th>
-                  <td className="text-center">5.51</td>
-                  <td className="text-center">0.0%</td>
+                  <td className="text-center">6.51</td>
+                  <td className="text-center">3.12%</td>
                 </tr>
                 <tr>
                   <th scope="row">JP Morgan</th>
-                  <td className="text-center">5.05</td>
-                  <td className="text-center">1.76</td>
+                  <td className="text-center">6.05</td>
+                  <td className="text-center">2.76</td>
                 </tr>
                 <tr>
                   <th scope="row">Johnson & Johnson</th>
-                  <td className="text-center">4.79</td>
-                  <td className="text-center">0.19</td>
+                  <td className="text-center">5.79</td>
+                  <td className="text-center">2.19</td>
                 </tr>
                 <tr>
                   <th scope="row">Exxon Mobil</th>
-                  <td className="text-center">4.72</td>
-                  <td className="text-center">0.02</td>
+                  <td className="text-center">5.72</td>
+                  <td className="text-center">3.02</td>
                 </tr>
                 <tr>
                   <th scope="row">Proctor & Gamble</th>
-                  <td className="text-center">4.42</td>
-                  <td className="text-center">0.18</td>
+                  <td className="text-center">5.42</td>
+                  <td className="text-center">1.18</td>
                 </tr>
               </tbody>
             </table>
@@ -162,7 +162,7 @@ function AboutCompany(props) {
             <br></br>
             <h5>Quick Portfolio Facts</h5>
             <p>◈ <strong>Primary Benchmark:</strong> Russell 1000 Growth Index</p>
-            <p>◈ <strong>Number of holdings:</strong> 30 (Index: 546)</p>
+            <p>◈ <strong>Number of holdings:</strong> 25 (Index: 546)</p>
             <p>◈ <strong>Median market capitalization:</strong> $54.59B (Index: $110.47B)</p>
             <p>◈ <strong>Model Inception:</strong> March 31, 2008</p>
             <br></br>
@@ -178,27 +178,27 @@ function AboutCompany(props) {
               <tbody>
                 <tr>
                   <th scope="row">Apple</th>
-                  <td className="text-center">4.79</td>
+                  <td className="text-center">5.79</td>
                   <td className="text-center">3.31</td>
                 </tr>
                 <tr>
                   <th scope="row">Microsoft</th>
-                  <td className="text-center">4.77</td>
+                  <td className="text-center">5.77</td>
                   <td className="text-center">3.60</td>
                 </tr>
                 <tr>
                   <th scope="row">Amazon</th>
-                  <td className="text-center">4.71</td>
+                  <td className="text-center">5.71</td>
                   <td className="text-center">3.12</td>
                 </tr>
                 <tr>
                   <th scope="row">Facebook</th>
-                  <td className="text-center">4.68</td>
+                  <td className="text-center">5.68</td>
                   <td className="text-center">2.39</td>
                 </tr>
                 <tr>
                   <th scope="row">Alphabet</th>
-                  <td className="text-center">4.58</td>
+                  <td className="text-center">5.58</td>
                   <td className="text-center">3.69</td>
                 </tr>
               </tbody>

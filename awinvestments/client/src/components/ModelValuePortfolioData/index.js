@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
-import API from "../../utils";
+import API from "../../ValueStocksUtilities/API";
 
 
-class ModelStocksData extends React.Component {
+class ModelValuePortfolioData extends React.Component {
   state = {
     price: ""
   }
@@ -34,4 +34,4 @@ class ModelStocksData extends React.Component {
   }
 }
 
-export default ModelStocksData;
+export default ModelValuePortfolioData;

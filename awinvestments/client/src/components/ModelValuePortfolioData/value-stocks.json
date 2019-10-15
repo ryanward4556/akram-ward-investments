@@ -3,61 +3,61 @@
     "id": 1,
     "symbol": "BRK.B",
     "name": "Berkshire Hathaway",
-    "weight": 5.51
+    "weight": 6.51
   },
   {
     "id": 2,
     "symbol": "JPM",
     "name": "JP Morgan",
-    "weight": 5.05
+    "weight": 6.05
   },
   {
     "id": 3,
     "symbol": "JNJ",
     "name": "Johnson & Johnson",
-    "weight": 4.79
+    "weight": 5.79
   },
   {
     "id": 4,
     "symbol": "XOM",
     "name": "Exxon Mobil",
-    "weight": 4.72
+    "weight": 5.72
   },
   {
     "id": 5,
     "symbol": "PG",
     "name": "Proctor & Gamble",
-    "weight": 4.42
+    "weight": 5.42
   },
   {
     "id": 6,
     "symbol": "T",
     "name": "AT&T",
-    "weight": 4.02
+    "weight": 5.02
   },
   {
     "id": 7,
     "symbol": "VZ",
     "name": "Verizon",
-    "weight": 3.99
+    "weight": 4.99
   },
   {
     "id": 8,
     "symbol": "BAC",
     "name": "Bank of America",
-    "weight": 3.89
+    "weight": 4.88
   },
   {
     "id": 9,
     "symbol": "INTC",
     "name": "Intel Corp.",
-    "weight": 3.81
+    "weight": 4.81
   },
   {
     "id": 10,
     "symbol": "DIS",
     "name": "Walt Disney Co.",
-    "weight": 3.79
+    "weight": 4.71
   },
   {
     "id": 11,
@@ -148,35 +148,5 @@
     "symbol": "MDLX",
     "name": "Mondeleze International",
     "weight": 2.12
-  },
-  {
-    "id": 26,
-    "symbol": "ABT",
-    "name": "Abbott Laboratories",
-    "weight": 2.08
-  },
-  {
-    "id": 27,
-    "symbol": "USB",
-    "name": "US Bancorp",
-    "weight": 2.03
-  },
-  {
-    "id": 28,
-    "symbol": "GE",
-    "name": "General Electric",
-    "weight": 1.97
-  },
-  {
-    "id": 29,
-    "symbol": "CME",
-    "name": "CME Group Inc.",
-    "weight": 1.94
-  },
-  {
-    "id": 30,
-    "symbol": "CB",
-    "name": "Chubb LTD",
-    "weight": 1.89
   }
 ]
