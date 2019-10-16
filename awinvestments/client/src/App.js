@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 // import Login from "./pages/Login";
+import MarketNews from "./pages/MarketNews";
 import ManagerView from "./pages/ManagerView";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
@@ -16,7 +17,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
-          {/* <Route exact path="/marketnews" component={MarketNews} /> */}
+          <Route exact path="/market-news" component={MarketNews} />
           {/* <Route exact path="/login" component={Login} /> */}
           <Route exact path="/manager-view" component={ManagerView} />
           <Route exact path="/contact" component={Contact} />
