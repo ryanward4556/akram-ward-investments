@@ -30,6 +30,16 @@ function ModelPortfolioTable(props) {
     <div className="row">
       <div className="col-12">
         <div className="row">
+          <div className="col-8 offset-2">
+            <div className="jumbotron" style={{ height: 200, clear: "both", paddingTop: 30, textAlign: "center", color: "red" }}>
+              <h3>INTERNAL USE ONLY</h3>
+              <p className="text-center" style={{ fontFamily: 'Orbitron', fontSize: "14px" }}>Please refer to two model strategies for portfolio construction purposes</p>
+              <p className="text-center" style={{ fontFamily: 'Orbitron', fontSize: "14px" }}>Model strategy weights are allocated quarterly - Date of last allocation: <i>09/30/2019</i></p>
+              <p className="text-center" style={{ fontFamily: 'Orbitron', fontSize: "14px" }}>Prices are updated live using the last available quote available</p>
+            </div>
+          </div>
+        </div>
+        <div className="row">
           <div className="col-5 offset-1" id="value-strategy">
             <h4 className="text-center">A&W large cap <span style={investmentStyle}>value</span></h4>
             <p className="text-center" style={pStyle}> Model Strategy Holdings</p>
