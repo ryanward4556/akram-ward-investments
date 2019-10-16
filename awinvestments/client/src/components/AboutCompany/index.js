@@ -21,6 +21,10 @@ var thStyle = {
   fontSize: "14px"
 }
 
+var pStyle={
+  fontSize: "16px"
+}
+
 function AboutCompany(props) {
   return (
     <div className="row">
@@ -33,7 +37,7 @@ function AboutCompany(props) {
         <div className="row" id="portfolio-managers">
           <div className="col-6" id="manager1">
             <h3 className="text-center" id="manager">martin akram</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            <p style={pStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -43,7 +47,7 @@ function AboutCompany(props) {
           </div>
           <div className="col-6" id="manager2">
             <h3 className="text-center" id="manager">ryan ward</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            <p style={pStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
@@ -63,7 +67,7 @@ function AboutCompany(props) {
         <div className="row" id="investment-strategies">
           <div className="col-6" id="strategy1">
             <h3 className="text-center">A&W large cap <span style={investmentStyle}>value</span></h3>
-            <p>The A&W Large Cap Value strategy seeks a concentrated portfolio of undervalued
+            <p style={pStyle}>The A&W Large Cap Value strategy seeks a concentrated portfolio of undervalued
               large cap equities of companies with low expectations and improving fundamentals.
               Special emphasis is placed on identifying catalysts that can accelerate earnings
               growth. Over time, the market rewards these types of companies. The team’s goal
@@ -158,7 +162,7 @@ function AboutCompany(props) {
           </div>
           <div className="col-6" id="strategy2">
             <h3 className="text-center">A&W large cap <span style={investmentStyle}>growth</span></h3>
-            <p>The A&W Large Cap Growth strategy seeks long-term capital appreciation by investing
+            <p style={pStyle}>The A&W Large Cap Growth strategy seeks long-term capital appreciation by investing
               in a concentrated portfolio of large cap equities with high growth potential. Our
               management team screens potential candidates with an eye to individual company
               fundamentals, as well as to their macroeconomic outlook. We target firms with what

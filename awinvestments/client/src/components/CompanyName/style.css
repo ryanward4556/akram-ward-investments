@@ -25,7 +25,7 @@ hr{ display: block !important;
     height: 1px !important;
     border: 0 !important; 
     border-top: 1px solid #ccc !important;
-    margin: 1em 0 !important; 
+    margin: 1em; 
     padding: 0 !important; 
     border-color: black !important;
     margin-top: 0 !important;
