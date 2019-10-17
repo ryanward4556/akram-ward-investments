@@ -21,7 +21,7 @@ const DisplayLinks = props => {
                 </ul>
             </nav>
         )
-    } 
+    }
     else {
         return (
             <div></div>
@@ -33,12 +33,12 @@ const DisplayLinks = props => {
     //                 <li className="nav-item">
     //                     <Link to="/login" className="nav-link">
     //                         login
-	// 					</Link>
+    // 					</Link>
     //                 </li>
     //                 <li className="nav-item">
     //                     <Link to="/signup" className="nav-link">
     //                         sign up
-	// 					</Link>
+    // 					</Link>
     //                 </li>
     //             </ul>
     //         </nav>
@@ -109,9 +109,9 @@ class App extends Component {
             <div>
                 <NavBar />
                 <div className="row">
-                    <div className="col-4 offset-4">
+                    <div className="col-12">
                         <div className="App">
-                            <Header user={this.state.user} />
+                            {/* <Header user={this.state.user} /> */}
                             <DisplayLinks _logout={this._logout} loggedIn={this.state.loggedIn} />
                             <Route
                                 exact
