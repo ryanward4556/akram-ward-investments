@@ -20,7 +20,7 @@ var contactHeader = {
 
 function App() {
   return (
-    <>
+    <div>
       <NavBar />
       <div className="container-contact100">
         <div className="wrap-contact100">
@@ -87,7 +87,7 @@ function App() {
       </div>
       <div id="dropDownSelect1"></div>
       <Footer />
-    </>
+    </div>
   );
 }
 
