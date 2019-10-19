@@ -1,0 +1,17 @@
+input::placeholder{
+  font-family: Poppins-Regular;
+  font-size: 15px;
+  color: #666666;
+}
+
+select{
+    appearance: none;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    border: none;
+    width: 100%;
+    padding: 0 25px;
+    min-height: 35px;
+    color: #666666;
+    background: white;
+}

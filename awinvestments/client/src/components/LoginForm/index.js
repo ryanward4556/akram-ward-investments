@@ -2,16 +2,19 @@ import React, { Component } from 'react'
 import { Redirect } from 'react-router-dom';
 import "../Contact/css/main.css";
 import "../Contact/css/util.css";
+import "./style.css"
 
 var buttonStyle = {
   display: "block",
   margin: "0 auto",
-  marginTop: "3rem",
+  marginTop: "1.5rem",
   backgroundColor: "#00AD5F",
   fontFamily: "Orbitron",
   fontSize: "12px",
   padding: "0 20px",
   height: "50px",
+  borderColor: "white",
+  color: "white"
 }
 
 var wrapStyle = {
@@ -22,7 +25,6 @@ var wrapStyle = {
   display: "-webkit-flex",
   display: "-moz-box",
   display: "-ms-flexbox",
-  // display: "flex",
   flexWrap: "wrap",
   alignItems: "stretch",
   flexDirection: "row-reverse"
@@ -59,7 +61,6 @@ class LoginForm extends Component {
       password: '',
       redirectTo: null
     }
-    // this.googleSignin = this.googleSignin.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
     this.handleChange = this.handleChange.bind(this)
   }
@@ -75,11 +76,9 @@ class LoginForm extends Component {
     console.log('handleSubmit')
     this.props._login(this.state.username, this.state.password)
     this.setState({
-      redirectTo: '/account'
+      redirectTo: '/strategy-overview'
     })
   }
-
-
 
   render() {
     if (this.state.redirectTo) {
@@ -115,7 +114,7 @@ class LoginForm extends Component {
                 </input>
                 <span className="focus-input100"></span>
               </div>
-              <button onClick={this.handleSubmit} className="btn btn-dark rounded-0" style={buttonStyle}> LOGIN</button>
+              <button onClick={this.handleSubmit} className="rounded-0" style={buttonStyle}> LOGIN</button>
               <p className="text-center" style={pStyle}>Attempts at unathorized access constitute a Federal crime in accordance with section 18 of U.S.C. § 1028 of the <br /><i>Identity Theft and Assumption Deterrence Act of 1998</i></p>
             </form>
           </div>

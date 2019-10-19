@@ -8,7 +8,13 @@ class App extends React.Component {
     return (
       <div>
         <NavBar />
-        <ExecuteOrders />
+        <div className="row">
+          <div className="col-8">
+          </div>
+          <div className="col-4">
+            <ExecuteOrders />
+          </div>
+        </div>
         <Footer />
       </div>
     )
