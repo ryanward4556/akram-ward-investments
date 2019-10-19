@@ -9,7 +9,7 @@ function NavBar(props) {
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/market-news">Market News</a></li>
-          <li><a href="login">Account</a></li>
+          <li><a href="login">Client Accounts</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
