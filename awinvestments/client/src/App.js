@@ -4,7 +4,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Auth from './components/Auth';
 import MarketNews from "./pages/MarketNews";
-import ManagerView from "./pages/ManagerView";
+import StrategyOverview from "./pages/StrategyOverview";
+import ClientAccounts from "./pages/ClientAccounts";
 import Contact from "./pages/Contact";
 import NoMatch from "./pages/NoMatch";
 import "./App.css";
@@ -17,7 +18,8 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/market-news" component={MarketNews} />
         <Route exact path="/login" component={Auth} />
-        <Route exact path="/account" component={ManagerView} />
+        <Route exact path="/strategy-overview" component={StrategyOverview} />
+        <Route exact path="/client-accounts" component={ClientAccounts} />
         <Route exact path="/contact" component={Contact} />
         <Route component={NoMatch} />
       </Switch>
