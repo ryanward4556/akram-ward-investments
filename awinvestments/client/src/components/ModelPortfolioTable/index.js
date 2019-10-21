@@ -22,7 +22,6 @@ var thStyle = {
   margin: "0 !important",
   paddingTop: "0.4rem !important",
   paddingBottom: "0.1rem !important"
-
 }
 
 function ModelPortfolioTable(props) {
