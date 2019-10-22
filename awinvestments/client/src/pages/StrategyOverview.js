@@ -8,8 +8,8 @@ class App extends React.Component {
     return (
       <div>
         <NavBar />
-        <ModelPortfolioTable>
-        </ModelPortfolioTable>
+        <ModelPortfolioTable />
+        <hr />
         <Footer />
       </div>
     )

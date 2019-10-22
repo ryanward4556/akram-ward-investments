@@ -26,7 +26,7 @@ var thStyle = {
 
 function ModelPortfolioTable(props) {
   return (
-    <div className="row">
+    <div className="row" style={{ background: "#f2f2f2" }}>
       <div className="col-12">
         <div className="row">
           <div className="col-8 offset-2">
@@ -42,7 +42,7 @@ function ModelPortfolioTable(props) {
           <div className="col-5 offset-1" id="value-strategy">
             <h4 className="text-center">A&W large cap <span style={investmentStyle}>value</span></h4>
             <p className="text-center" style={pStyle}> Model Strategy Holdings</p>
-            <table className="table table-sm" border="1">
+            <table className="table table-sm" border="1" style={{ background: "#fff" }}>
               <thead className="thead-dark">
                 <tr>
                   <th scope="col" style={thStyle}>Security Name</th>
@@ -69,7 +69,7 @@ function ModelPortfolioTable(props) {
           <div className="col-5" id="growth-strategy">
             <h4 className="text-center">A&W large cap <span style={investmentStyle}>growth</span></h4>
             <p className="text-center" style={pStyle}> Model Strategy Holdings</p>
-            <table className="table table-sm" border="1">
+            <table className="table table-sm" border="1" style={{ background: "#fff" }}>
               <thead className="thead-dark">
                 <tr>
                   <th scope="col" style={thStyle}>Security Name</th>
@@ -94,7 +94,9 @@ function ModelPortfolioTable(props) {
             </table>
           </div>
         </div>
+        <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
       </div >
+      <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
     </div >
   );
 }
