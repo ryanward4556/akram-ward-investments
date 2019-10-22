@@ -14,7 +14,12 @@ body{
     padding-right: 10rem !important;
 }
 
-h2, h3{
+h2{
+    font-family: 'Orbitron' !important;
+    padding-top: 3rem !important;
+}
+
+h3{
     font-family: 'Orbitron' !important;
     padding-top: 2rem !important;
 }
@@ -22,7 +27,8 @@ h2, h3{
 h5{
     font-family: 'Orbitron' !important;
     font-size: 17px !important;
-    color: green
+    color: green;
+    padding-top: 1rem
 }
 
 p{
@@ -34,4 +40,12 @@ p{
 
 td{
     text-align: center
+}
+
+th{
+    font-weight: normal
+}
+
+hr{
+    padding-top: 2rem
 }

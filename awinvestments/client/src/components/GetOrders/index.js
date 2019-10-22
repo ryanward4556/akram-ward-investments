@@ -10,6 +10,7 @@ var wrapStyle = {
   background: "#fff",
   paddingRight: "50px",
   paddingLeft: "50px",
+  paddingBottom: "25px"
 }
 
 var thStyle = {
@@ -23,18 +24,6 @@ var h4Style = {
   color: "green",
   paddingTop: "2rem",
   paddingBottom: "2rem"
-}
-
-var buttonStyle = {
-  display: "block",
-  margin: "0 auto",
-  marginBottom: "-1rem",
-  backgroundColor: "#00AD5F",
-  fontFamily: "Orbitron",
-  fontSize: "12px",
-  padding: "0 20px",
-  height: "50px",
-  color: "white"
 }
 
 class App extends React.Component {

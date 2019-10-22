@@ -18,16 +18,19 @@ var negativeStyle = {
 }
 
 var thStyle = {
-  fontSize: "14px"
+  fontFamily: 'Orbitron',
+  paddingTop: "0.4rem !important",
+  paddingBottom: "0.1rem !important",
+  fontSize: "12px",
 }
 
-var pStyle={
+var pStyle = {
   fontSize: "16px"
 }
 
 function AboutCompany(props) {
   return (
-    <div className="row">
+    <div className="row" style={{ background: "#f2f2f2" }}>
       <div className="col-12">
         <div className="row">
           <div className="col-12">
@@ -80,7 +83,7 @@ function AboutCompany(props) {
             <p>◈ <strong>Model Inception:</strong> March 01, 2009</p>
             <br></br>
             <h5>Top 5 Holdings</h5>
-            <table className="table table-sm">
+            <table className="table table-sm" border="1" style={{ background: "#fff" }}>
               <thead className="thead-dark">
                 <tr>
                   <th style={thStyle} scope="col">Security</th>
@@ -90,34 +93,34 @@ function AboutCompany(props) {
               </thead>
               <tbody>
                 <tr>
-                  <th style={thStyle} scope="row">Berkshire Hathway</th>
+                  <th scope="row">Berkshire Hathway</th>
                   <td className="text-center">6.51</td>
                   <td className="text-center">3.12%</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">JP Morgan</th>
+                  <th scope="row">JP Morgan</th>
                   <td className="text-center">6.05</td>
                   <td className="text-center">2.76</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">Johnson & Johnson</th>
+                  <th scope="row">Johnson & Johnson</th>
                   <td className="text-center">5.79</td>
                   <td className="text-center">2.19</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">Exxon Mobil</th>
+                  <th scope="row">Exxon Mobil</th>
                   <td className="text-center">5.72</td>
                   <td className="text-center">3.02</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">Proctor & Gamble</th>
+                  <th scope="row">Proctor & Gamble</th>
                   <td className="text-center">5.42</td>
                   <td className="text-center">1.18</td>
                 </tr>
               </tbody>
             </table>
             <h5>Calendar Year Returns</h5>
-            <table className="table table-sm">
+            <table className="table table-sm" border="1" style={{ background: "#fff" }}>
               <thead className="thead-dark">
                 <tr>
                   <th style={thStyle} scope="col">Year</th>
@@ -128,31 +131,31 @@ function AboutCompany(props) {
               </thead>
               <tbody>
                 <tr>
-                  <th style={thStyle} scope="row">2018</th>
+                  <th scope="row">2018</th>
                   <td className="text-center" className="text-center" style={negativeStyle}>(11.34)</td>
                   <td className="text-center" className="text-center" style={negativeStyle}>(13.99)</td>
                   <td className="text-center" className="text-center" style={negativeStyle}>(8.27)</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">2017</th>
+                  <th scope="row">2017</th>
                   <td className="text-center">21.76</td>
                   <td className="text-center">18.22</td>
                   <td className="text-center">13.66</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">2016</th>
+                  <th scope="row">2016</th>
                   <td className="text-center">20.25</td>
                   <td className="text-center">16.75</td>
                   <td className="text-center">17.34</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">2015</th>
+                  <th scope="row">2015</th>
                   <td className="text-center" className="text-center" style={negativeStyle}>(2.81)</td>
                   <td className="text-center" className="text-center" style={negativeStyle}>(5.69)</td>
                   <td className="text-center" className="text-center" style={negativeStyle}>(3.83)</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">2014</th>
+                  <th scope="row">2014</th>
                   <td className="text-center">13.65</td>
                   <td className="text-center">10.32</td>
                   <td className="text-center">13.45</td>
@@ -175,7 +178,7 @@ function AboutCompany(props) {
             <p>◈ <strong>Model Inception:</strong> March 31, 2008</p>
             <br></br>
             <h5>Top 5 Holdings</h5>
-            <table className="table table-sm">
+            <table className="table table-sm" border="1" style={{ background: "#fff" }}>
               <thead className="thead-dark">
                 <tr>
                   <th style={thStyle} scope="col">Security</th>
@@ -185,22 +188,22 @@ function AboutCompany(props) {
               </thead>
               <tbody>
                 <tr>
-                  <th style={thStyle} scope="row">Apple</th>
+                  <th scope="row">Apple</th>
                   <td className="text-center">5.79</td>
                   <td className="text-center">3.31</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">Microsoft</th>
+                  <th scope="row">Microsoft</th>
                   <td className="text-center">5.77</td>
                   <td className="text-center">3.60</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">Amazon</th>
+                  <th scope="row">Amazon</th>
                   <td className="text-center">5.71</td>
                   <td className="text-center">3.12</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">Facebook</th>
+                  <th scope="row">Facebook</th>
                   <td className="text-center">5.68</td>
                   <td className="text-center">2.39</td>
                 </tr>
@@ -212,7 +215,7 @@ function AboutCompany(props) {
               </tbody>
             </table>
             <h5>Calendar Year Returns</h5>
-            <table className="table table-sm">
+            <table className="table table-sm" border="1" style={{ background: "#fff" }}>
               <thead className="thead-dark">
                 <tr>
                   <th style={thStyle} scope="col">Year</th>
@@ -223,31 +226,31 @@ function AboutCompany(props) {
               </thead>
               <tbody>
                 <tr>
-                  <th style={thStyle} scope="row">2018</th>
+                  <th scope="row">2018</th>
                   <td className="text-center" className="text-center" style={negativeStyle}>(3.85)</td>
                   <td className="text-center" className="text-center" style={negativeStyle}>(6.70)</td>
                   <td className="text-center" className="text-center" style={negativeStyle}>(1.51)</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">2017</th>
+                  <th scope="row">2017</th>
                   <td className="text-center">35.71</td>
                   <td className="text-center">31.79</td>
                   <td className="text-center">30.21</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">2016</th>
+                  <th scope="row">2016</th>
                   <td className="text-center" className="text-center" style={negativeStyle}>(8.28)</td>
                   <td className="text-center" className="text-center" style={negativeStyle}>(11.01)</td>
                   <td className="text-center" className="text-center" style={negativeStyle}>(7.08)</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">2015</th>
+                  <th scope="row">2015</th>
                   <td className="text-center">7.71</td>
                   <td className="text-center">4.54</td>
                   <td className="text-center">5.67</td>
                 </tr>
                 <tr>
-                  <th style={thStyle} scope="row">2014</th>
+                  <th scope="row">2014</th>
                   <td className="text-center">8.47</td>
                   <td className="text-center">5.28</td>
                   <td className="text-center">13.05</td>
@@ -256,6 +259,8 @@ function AboutCompany(props) {
             </table>
           </div>
         </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
         <hr />
       </div>
     </div >

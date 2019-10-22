@@ -4,6 +4,7 @@ import "./style.css";
 var marketNews = {
   color: "green",
   fontFamily: "Orbitron",
+  paddingTop: "15px"
 }
 
 var pStyle = {

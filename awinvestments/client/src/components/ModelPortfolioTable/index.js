@@ -34,7 +34,7 @@ function ModelPortfolioTable(props) {
               <h3>INTERNAL USE ONLY</h3>
               <p className="text-center" style={{ fontFamily: 'Orbitron', fontSize: "14px" }}>Please refer to two model strategies for portfolio construction purposes</p>
               <p className="text-center" style={{ fontFamily: 'Orbitron', fontSize: "14px" }}>Model strategy weights are allocated quarterly - Date of last allocation: <i>09/30/2019</i></p>
-              <p className="text-center" style={{ fontFamily: 'Orbitron', fontSize: "14px" }}>Prices are updated live using the last available quote available</p>
+              <p className="text-center" style={{ fontFamily: 'Orbitron', fontSize: "14px" }}>Prices are updated live using the last available quote</p>
             </div>
           </div>
         </div>

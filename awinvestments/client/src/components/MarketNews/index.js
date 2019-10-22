@@ -34,34 +34,32 @@ class MarketNews extends Component {
     return (
       <div>
         <NewsJumbotron />
-        <Container>
-          <div class="row">
-            <div class="col-12">
-              <form>
-                <Container>
-                  <Row>
-                    <div className="col-5 offset-3">
-                      <Input
-                        name="stockSearch"
-                        value={this.state.stockSearch}
-                        onChange={this.handleInputChange}
-                        placeholder="Search For a Stock"
-                      />
-                    </div>
-                    <div className="col-2">
-                      <Button
-                        onClick={this.handleFormSubmit}
-                        type="success"
-                        className="input-lg"
-                      >Search</Button>
-                    </div>
-                  </Row>
-                </Container>
-              </form>
-            </div>
+        <div class="row">
+          <div class="col-12">
+            <form style={{ background: "#f2f2f2" }}>
+              <div className="row">
+                <div className="col-5 offset-3">
+                  <Input
+                    name="stockSearch"
+                    value={this.state.stockSearch}
+                    onChange={this.handleInputChange}
+                    placeholder="Search For a Stock"
+                  />
+                </div>
+                <div className="col-2">
+                  <Button
+                    onClick={this.handleFormSubmit}
+                    type="success"
+                    className="input-lg"
+                  >Search</Button>
+                </div>
+              </div>
+            </form>
           </div>
-          <Row>
-            <Col size="xs-12">
+        </div>
+        <div className="row" style={{ background: "#f2f2f2" }}>
+          <Container>
+            <div className="col-12">
               {
                 <StockList>
                   {this.state.stocks.map(stock => {
@@ -80,9 +78,9 @@ class MarketNews extends Component {
                   })}
                 </StockList>
               }
-            </Col>
-          </Row>
-        </Container>
+            </div>
+          </Container>
+        </div>
       </div>
     );
   }
