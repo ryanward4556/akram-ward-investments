@@ -48,6 +48,9 @@ class App extends React.Component {
             <GetOrders />
           </div>
         </div>
+        <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
+        <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
+        <hr />
         <Footer />
       </div>
     )
