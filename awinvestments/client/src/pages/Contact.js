@@ -22,6 +22,7 @@ function App() {
   return (
     <div>
       <NavBar />
+      <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
       <div className="container-contact100">
         <div className="wrap-contact100">
           <form className="contact100-form validate-form">
@@ -85,7 +86,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div id="dropDownSelect1"></div>
+      <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
+      <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
+      <hr />
       <Footer />
     </div>
   );

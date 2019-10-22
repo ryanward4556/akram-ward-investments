@@ -81,6 +81,7 @@ class MarketNews extends Component {
             </div>
           </Container>
         </div>
+        <hr />
       </div>
     );
   }

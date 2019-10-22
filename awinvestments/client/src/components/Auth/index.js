@@ -107,6 +107,7 @@ class App extends Component {
     return (
       <div>
         <NavBar />
+        <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
         <div className="row">
           <div className="col-12">
             <div className="App">
@@ -121,6 +122,8 @@ class App extends Component {
             </div>
           </div>
         </div>
+        <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
+        <hr />
         <Footer />
       </div>
 
