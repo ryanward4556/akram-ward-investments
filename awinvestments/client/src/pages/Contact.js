@@ -12,6 +12,7 @@ var sendUsAMessage = {
 
 var sendButton = {
   fontFamily: "Orbitron",
+  background: "green"
 }
 
 var contactHeader = {

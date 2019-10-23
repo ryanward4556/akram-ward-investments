@@ -1,8 +1,7 @@
 import React from "react";
 
 var buttonStyle = {
-  color: "green !important",
-  backgroundColor: "green !important"
+  background: "green"
 }
 
 

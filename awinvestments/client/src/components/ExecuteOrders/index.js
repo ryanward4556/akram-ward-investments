@@ -28,7 +28,8 @@ var buttonStyle = {
   fontFamily: "Orbitron",
   fontSize: "12px",
   height: "50px",
-  color: "white"
+  color: "white",
+  background: "green"
 }
 
 var h4Style = {

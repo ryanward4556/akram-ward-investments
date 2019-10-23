@@ -14,7 +14,8 @@ var buttonStyle = {
   padding: "0 20px",
   height: "50px",
   borderColor: "white",
-  color: "white"
+  color: "white",
+  background: "green"
 }
 
 var wrapStyle = {
