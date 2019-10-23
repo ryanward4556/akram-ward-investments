@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route, Switch, Link } from 'react-router-dom';
+import PrivateRoute from "react-private-route";
 import axios from 'axios';
 import LoginForm from "../LoginForm";
-import Signup from "../../pages/Signup";
+// import Signup from "../../pages/Signup";
+import StrategyOverview from "../../pages/StrategyOverview";
+import ClientAccounts from "../../pages/ClientAccounts";
 import NavBar from '../NavBar';
 import Footer from '../Footer';
 
@@ -86,21 +89,24 @@ class App extends Component {
     })
   }
   _login(username, password) {
-    axios
+   return axios
       .post('/auth/login', {
         username,
         password
       })
-      .then(response => {
-        console.log(response)
-        if (response.status === 200) {
-          // update the state
-          this.setState({
-            loggedIn: true,
-            user: response.data.user
-          })
-        }
-      })
+      // .then(response => {
+      //   console.log("response: ", response)
+      //   if (response.status === 200) {
+      //     // update the state
+      //     this.setState({
+      //       loggedIn: true,
+      //       user: response.data.user
+      //     })
+      //   }
+      // })
+  }
+  isLoggedIn() {
+    return this.state.loggedIn;
   }
 
   render() {
@@ -112,13 +118,27 @@ class App extends Component {
           <div className="col-12">
             <div className="App">
               <DisplayLinks _logout={this._logout} loggedIn={this.state.loggedIn} />
-              <Route
-                exact
-                path="/login"
-                render={() =>
-                  <LoginForm _login={this._login} />}
-              />
-              <Route exact path="/signup" component={Signup} />
+              <Switch>
+                <Route
+                  exact
+                  path="/login"
+                  render={() =>
+                    <LoginForm _login={this._login} />}
+                />
+                {/* <PrivateRoute
+                  exact path="/strategy-overview"
+                  isAuthenticated={!!this.isLoggedIn()}
+                  redirect="/login"
+                  component={StrategyOverview}
+                />
+                <PrivateRoute
+                  exact path="/client-accounts"
+                  isAuthenticated={!!this.isLoggedIn()}
+                  redirect="/login"
+                  component={ClientAccounts}
+                /> */}
+              </Switch>
+              {/* <Route exact path="/signup" component={Signup} /> */}
             </div>
           </div>
         </div>

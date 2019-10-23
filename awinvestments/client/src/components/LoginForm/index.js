@@ -72,13 +72,25 @@ class LoginForm extends Component {
     })
   }
 
-  handleSubmit(event) {
+  async handleSubmit(event) {
     event.preventDefault()
     console.log('handleSubmit')
-    this.props._login(this.state.username, this.state.password)
-    this.setState({
-      redirectTo: '/strategy-overview'
-    })
+    try {
+      const result = await this.props._login(this.state.username, this.state.password)
+      if (result.status !== 200) {
+        this.setState({
+          redirectTo: '/login'
+        })
+      } 
+      // else if (this.props.match.params )
+      this.setState({
+        redirectTo: '/strategy-overview'
+      })
+    }
+    catch(e) {
+      console.log('Something has gone terribly wrong');
+    }
+    
   }
 
   render() {
