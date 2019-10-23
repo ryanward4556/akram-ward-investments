@@ -25,7 +25,7 @@ app.use(
 app.use(bodyParser.json())
 app.use(
 	session({
-		secret: process.env.APP_SECRET || 'this is the default passphrase',
+		secret: "mongolab-symmetrical-54880" || 'this is the default passphrase',
 		store: new MongoStore({ mongooseConnection: dbConnection }),
 		resave: false,
 		saveUninitialized: false
