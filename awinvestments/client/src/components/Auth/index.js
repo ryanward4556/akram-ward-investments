@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Route, Switch, Link } from 'react-router-dom';
-import PrivateRoute from "react-private-route";
 import axios from 'axios';
 import LoginForm from "../LoginForm";
 // import Signup from "../../pages/Signup";
