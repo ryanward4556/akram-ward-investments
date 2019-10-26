@@ -1,10 +1,5 @@
 import React, { Component } from "react";
-const Alpaca = require("@alpacahq/alpaca-trade-api")
-const alpaca = new Alpaca({
-  keyId: 'PKNI07BAO6K8Y3JXZT1G',
-  secretKey: 'Hl59Yy66hxNBPMCjNJm7bZ/KcE3iz58VQKHfyzRk',
-  paper: true,
-})
+
 
 var wrapStyle = {
   background: "#fff",
@@ -32,26 +27,40 @@ class App extends React.Component {
     positions: [],
   }
 
-  componentDidMount() {
-    alpaca.getOrders({
-      status: 'open' && 'filled',
-      direction: 'desc'
-    })
-      .then(response => {
-        this.setState(() => {
-          console.log(response)
-          return { orders: response }
-        })
-      })
+  async componentDidMount() {
 
-    alpaca.getPositions()
-      .then(response => {
-        this.setState(() => {
-          console.log(response)
-          return { positions: response }
-        })
-      })
-  }
+    const ordersUrl = `https://paper-api.alpaca.markets/v2/orders?status=filled&direction=desc`;
+      const getOrders = await fetch(ordersUrl, {
+        method: "GET",
+        mode: "cors",
+        cache: "no-cache",
+        credentials: "same-origin",
+        headers: {
+          "Content-Type": "application/json",
+          "APCA-API-KEY-ID": "PKNI07BAO6K8Y3JXZT1G",
+          "APCA-API-SECRET-KEY": "Hl59Yy66hxNBPMCjNJm7bZ/KcE3iz58VQKHfyzRk"
+        },
+      });
+      const ordersResponse = await getOrders.json();
+      console.log('ordersResponse', ordersResponse);
+      this.setState({orders : ordersResponse })
+
+      const positionsUrl = `https://paper-api.alpaca.markets/v2/positions`;
+      const getPositions = await fetch(positionsUrl, {
+        method: "GET",
+        mode: "cors",
+        cache: "no-cache",
+        credentials: "same-origin",
+        headers: {
+          "Content-Type": "application/json",
+          "APCA-API-KEY-ID": "PKNI07BAO6K8Y3JXZT1G",
+          "APCA-API-SECRET-KEY": "Hl59Yy66hxNBPMCjNJm7bZ/KcE3iz58VQKHfyzRk"
+        },
+      });
+      const positionsResponse = await getPositions.json();
+      console.log('positionsResponse', positionsResponse);
+      this.setState({positions : positionsResponse })
+}
 
   render() {
     return (

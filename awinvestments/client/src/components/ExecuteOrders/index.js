@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import API from "../../Utilities-Alpaca/API";
 import "./style.css";
 
 
@@ -51,17 +50,36 @@ class ExecuteOrders extends Component {
     });
   };
 
-  handleOrderSubmit = event => {
+  handleOrderSubmit = async event => {
     event.preventDefault();
     if (this.state.stock && this.state.quantity && this.state.side) {
-      API.submitOrder(this.state.quantity, this.state.stock, this.state.side)
+      const ordersBody = {
+        qty: this.state.quantity,
+        side: this.state.side,
+        symbol: this.state.stock,
+        type: 'market',
+        time_in_force: 'day'
+      }
+      const ordersURL = `https://paper-api.alpaca.markets/v2/orders`;
+      const getOrders = await fetch(ordersURL, {
+        method: "POST",
+        mode: "cors",
+        cache: "no-cache",
+        credentials: "same-origin",
+        headers: {
+          "Content-Type": "application/json",
+          "APCA-API-KEY-ID": "PKNI07BAO6K8Y3JXZT1G",
+          "APCA-API-SECRET-KEY": "Hl59Yy66hxNBPMCjNJm7bZ/KcE3iz58VQKHfyzRk"
+        },
+        body: JSON.stringify(ordersBody)
+      });
+      const ordersResponse = await getOrders.json();
+      console.log('ordersResponse', ordersResponse);
       alert("Order Submitted");
       setTimeout(function () {
-        window.location.reload(1);
-      }, 500);
-    }
-    else {
-      alert("Please provide all required information to submit a trade order")
+            window.location.reload(1);
+          }, 500);
+
     }
   };
 
