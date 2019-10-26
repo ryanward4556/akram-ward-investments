@@ -7,6 +7,7 @@ import MarketNews from "./pages/MarketNews";
 import StrategyOverview from "./pages/StrategyOverview";
 import ClientAccounts from "./pages/ClientAccounts";
 import Contact from "./pages/Contact";
+import Signup from "./pages/Signup";
 import NoMatch from "./pages/NoMatch";
 import "./App.css";
 
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/market-news" component={MarketNews} />
         <Route exact path="/login" component={Auth} />
+        <Route exact path="/signup" component={Signup} />
         <Route exact path="/strategy-overview" component={StrategyOverview} />
         <Route exact path="/client-accounts" component={ClientAccounts} />
         <Route exact path="/contact" component={Contact} />

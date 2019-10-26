@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 import ModelValuePortfolioData from "../PortfolioModelValue";
 import ModelGrowthPortfolioData from "../PortfolioModelGrowth";
 import valueStocks from "../PortfolioModelValue/value-stocks.json"
@@ -45,6 +46,8 @@ var tradingButtonStyle = {
   marginTop: "2rem",
   marginBottom: "2rem",
   backgroundColor: "#00AD5F",
+  padding: "1rem",
+  textAlign: "center",
   fontFamily: "Orbitron",
   fontSize: "12px",
   height: "50px",
@@ -76,12 +79,13 @@ function ModelPortfolioTable(props) {
             </div>
           </div>
           <div className="col-3">
-            <button
+            <Link
               style={tradingButtonStyle}
-              // onClick={}
-              type="success"
-              className="btn rounded-0"
-            >TRADING PLATFORM</button>
+              redirectTo="/client-account"
+              to="/client-accounts"
+              type="btn"
+            >TRADING PLATFORM
+            </Link>
           </div>
         </div>
         <div className="row">

@@ -96,7 +96,7 @@ class ExecuteOrders extends Component {
                   <input
                     className="input50"
                     name="stock"
-                    value={this.state.stock}
+                    value={(this.state.stock).toUpperCase()}
                     onChange={this.handleInputChange}
                     placeholder="Ex: AAPL"
                   />
