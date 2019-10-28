@@ -43,7 +43,6 @@ var performanceButtonStyle = {
 var tradingButtonStyle = {
   display: "block",
   margin: "0 auto",
-  marginTop: "2rem",
   marginBottom: "2rem",
   backgroundColor: "#00AD5F",
   padding: "1rem",
@@ -52,7 +51,7 @@ var tradingButtonStyle = {
   fontSize: "12px",
   height: "50px",
   color: "white",
-  float: "left",
+  float: "clear",
   width: "215px",
   background: "green"
 }
@@ -62,15 +61,7 @@ function ModelPortfolioTable(props) {
     <div className="row" style={{ background: "#f2f2f2" }}>
       <div className="col-12">
         <div className="row">
-          <div className="col-3">
-            <button
-              style={performanceButtonStyle}
-              // onClick={}
-              type="success"
-              className="btn rounded-0"
-            >PERFORMANCE CHARTS</button>
-          </div>
-          <div className="col-6">
+          <div className="col-12">
             <div className="jumbotron" style={{ height: 200, clear: "both", paddingTop: 30, textAlign: "center", color: "red" }}>
               <h3>INTERNAL USE ONLY</h3>
               <p className="text-center" style={{ fontFamily: 'Orbitron', fontSize: "14px" }}>Please refer to two model strategies for portfolio construction purposes</p>
@@ -78,7 +69,7 @@ function ModelPortfolioTable(props) {
               <p className="text-center" style={{ fontFamily: 'Orbitron', fontSize: "14px" }}>Prices are updated live using the last available quote</p>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-12">
             <Link
               style={tradingButtonStyle}
               redirectTo="/client-account"

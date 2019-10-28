@@ -40,23 +40,11 @@ function AboutCompany(props) {
         <div className="row" id="portfolio-managers">
           <div className="col-6" id="manager1">
             <h3 className="text-center" id="manager">martin akram</h3>
-            <p style={pStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p style={pStyle}>Since his early teens, Martin has been fascinated with the ins and outs of the Stock Market and how the complexity of human behavior impacts Capital Markets in both the short and long-term. That fascination led him to study Accounting and Finance at Eastern University. Martin is a co-founding partner of A&W Investments where he oversees the Large Cap Value strategy. When not working, Martin enjoys traveling, cooking, programming and spending time with his family and friends.</p>
           </div>
           <div className="col-6" id="manager2">
             <h3 className="text-center" id="manager">ryan ward</h3>
-            <p style={pStyle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p style={pStyle}>Solving puzzles has always been at the heart of Ryan’s studies. After pursuing a BA in Political Science with minors in Psychology and Spanish at Swarthmore College ’18, his next problem solving endeavor was tackling the stock market by creating a seamless trading experience. Ryan leveraged his coding skills to co-found A&W Investments, where he oversees the Large Cap Growth strategy. Outside of A&W Investments, Ryan can be found playing soccer, cooking, and barbering. </p>
           </div>
         </div>
         <br></br>

@@ -23,44 +23,27 @@ var h4Style = {
 
 class App extends React.Component {
   state = {
-    orders: [],
-    positions: [],
+    orders: []
   }
 
   async componentDidMount() {
 
     const ordersUrl = `https://paper-api.alpaca.markets/v2/orders?status=filled&direction=desc`;
-      const getOrders = await fetch(ordersUrl, {
-        method: "GET",
-        mode: "cors",
-        cache: "no-cache",
-        credentials: "same-origin",
-        headers: {
-          "Content-Type": "application/json",
-          "APCA-API-KEY-ID": "PKNI07BAO6K8Y3JXZT1G",
-          "APCA-API-SECRET-KEY": "Hl59Yy66hxNBPMCjNJm7bZ/KcE3iz58VQKHfyzRk"
-        },
-      });
-      const ordersResponse = await getOrders.json();
-      console.log('ordersResponse', ordersResponse);
-      this.setState({orders : ordersResponse })
-
-      const positionsUrl = `https://paper-api.alpaca.markets/v2/positions`;
-      const getPositions = await fetch(positionsUrl, {
-        method: "GET",
-        mode: "cors",
-        cache: "no-cache",
-        credentials: "same-origin",
-        headers: {
-          "Content-Type": "application/json",
-          "APCA-API-KEY-ID": "PKNI07BAO6K8Y3JXZT1G",
-          "APCA-API-SECRET-KEY": "Hl59Yy66hxNBPMCjNJm7bZ/KcE3iz58VQKHfyzRk"
-        },
-      });
-      const positionsResponse = await getPositions.json();
-      console.log('positionsResponse', positionsResponse);
-      this.setState({positions : positionsResponse })
-}
+    const getOrders = await fetch(ordersUrl, {
+      method: "GET",
+      mode: "cors",
+      cache: "no-cache",
+      credentials: "same-origin",
+      headers: {
+        "Content-Type": "application/json",
+        "APCA-API-KEY-ID": "PKNI07BAO6K8Y3JXZT1G",
+        "APCA-API-SECRET-KEY": "Hl59Yy66hxNBPMCjNJm7bZ/KcE3iz58VQKHfyzRk"
+      },
+    });
+    const ordersResponse = await getOrders.json();
+    console.log('ordersResponse', ordersResponse);
+    this.setState({ orders: ordersResponse })
+  }
 
   render() {
     return (
