@@ -141,8 +141,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
-        <p style={{ background: "#f2f2f2" }}>&nbsp;</p>
+        <p style={{ background: "#f2f2f2", paddingBottom: "6rem" }}>&nbsp;</p>
         <hr />
         <Footer />
       </div>

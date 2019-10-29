@@ -7,7 +7,7 @@ import "./style.css"
 var buttonStyle = {
   display: "block",
   margin: "0 auto",
-  marginTop: "1.5rem",
+  marginTop: "3.5rem",
   backgroundColor: "#00AD5F",
   fontFamily: "Orbitron",
   fontSize: "12px",
@@ -28,7 +28,8 @@ var wrapStyle = {
   display: "-ms-flexbox",
   flexWrap: "wrap",
   alignItems: "stretch",
-  flexDirection: "row-reverse"
+  flexDirection: "row-reverse",
+  paddingBottom: "2rem"
 }
 
 var formStyle = {
